@@ -36,7 +36,6 @@ const LoginForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
-
     // use loginUser function
     try {
       const { data } = await login({
